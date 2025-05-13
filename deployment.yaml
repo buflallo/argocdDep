@@ -6,12 +6,12 @@ spec:
   template:
     spec:
       containers:
-      imagePullPolicy: Always
-        name: container-0
-        image: ubuntu
-        command:
-          sleep
-        args:
-          infinity
+        imagePullPolicy: Always
+          name: container-0
+          image: ubuntu
+          command:
+            sleep
+          args:
+            infinity
       imagePullSecrets:
         name: dockerhub-registry-secret
