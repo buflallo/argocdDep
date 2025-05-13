@@ -8,16 +8,10 @@ spec:
       containers:
       imagePullPolicy: Always
         name: container-0
-        _init: false
-        __active: true
         image: ubuntu
-        stdin: false
-        stdinOnce: false
         command:
           sleep
-        tty: false
         args:
           infinity
       imagePullSecrets:
         name: dockerhub-registry-secret
-      affinity: {}
