@@ -4,7 +4,6 @@ metadata:
   name: icy-gitgh
 spec:
   ports:
-  - nodePort: 30576
     port: 8443
     protocol: TCP
     targetPort: 8443
