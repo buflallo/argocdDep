@@ -4,7 +4,7 @@ metadata:
   name: icy-dwd
 spec:
   ports:
-    port: 8443
-    protocol: TCP
-    targetPort: 8443
+    - port: 8443
+      protocol: TCP
+      targetPort: 8443
   type: NodePort
